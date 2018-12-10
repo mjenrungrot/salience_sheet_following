@@ -237,7 +237,7 @@
 %    now pre-defines the following format control macros to facilitate easy 
 %    use with Donald Arseneau's cite.sty package (tested with cite.sty V3.9):  
 %
-%    \def\citepunct{], [}
+     \def\citepunct{,}
 %    \def\citedash{]--[}
 %    
 %    cite.sty is standard on most LaTeX sytems and can be obtained from
@@ -661,7 +661,7 @@
 %
 %
 %
-\ProvidesClass{ieeeconf}[2016/4/23 revision V1.6b by Pradeep Misra]
+\ProvidesClass{cssconf}[2004/1/15 revision V1.6b by Pradeep Misra]
 %\ProvidesClass{IEEEtran}[2002/11/18 revision V1.6b by Michael Shell]
 %\typeout{-- See the "IEEEtran_HOWTO" manual for usage information.}
 %\typeout{-- The source comments contain changelog notes.}
@@ -3299,8 +3299,8 @@ between column types.}%
 % that \cite.
 % Thanks to Mr. Arseneau for providing the required format arguments
 % to produce the IEEE style.
-\def\citepunct{], [}
-\def\citedash{]--[}
+\def\citepunct{, }
+\def\citedash{--}
 
 
 % V1.6b providing this command makes hyperref think the natbib package is
