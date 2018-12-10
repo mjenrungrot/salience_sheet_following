@@ -20,7 +20,7 @@ dorfer_results/             Results for one of the baseline system.
 
 1) Download `MSMD` dataset.
 
-2) Install `musicma` library (https://github.com/hajicj/muscima). 
+2) Install `muscima` library (https://github.com/hajicj/muscima). 
 - Clone the repository.
 - Run `python setup.py install`.
 
