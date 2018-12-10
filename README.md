@@ -1,7 +1,20 @@
 # Sheet Music Following 
 
 This repository contains the final project for Music Signal Processing taught by Professor Timothy Tsai 
-from Engineering Department at Harvey Mudd College, Fall 2018.
+from Engineering Department at Harvey Mudd College, Fall 2018. For more details, please look at the final report [[here]](https://github.com/mjenrungrot/salience_sheet_following/blob/master/writeup/final_paper.pdf).
+
+# Repository
+```
+File/Folder             |   Descriptions
+=====================================================================================================
+soundfonts/                 Soundfont used for synthesizing audio
+writeup/                    Writeup for the project
+dorfer_results/             Results for one of the baseline system.
+01_processData.ipynb        Convert MIDI to audio
+02_audioToSpec.ipynb        Convert audio to its log-frequency spectrogram
+03_generateBootleg.ipynb    Synthesize a bootleg representation from the log-frequency spectrogram
+04_Evaluate.ipynb           Evaluate the system's performance
+```
 
 # Instructions
 
