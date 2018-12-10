@@ -1,20 +1,32 @@
-# Sheet Following using Salience Representation
+# Sheet Music Following 
 
 This repository contains the final project for Music Signal Processing taught by Professor Timothy Tsai 
 from Engineering Department at Harvey Mudd College, Fall 2018.
 
-# Pipeline
+# Instructions
 
-From MIDI, we synthesize audio and create salience representation (1 bin per semiton, add up all harmonics). Then, we find the onsets (pick sample approach for now).
+1) Download `MSMD` dataset.
 
-From sheet music, we extract staff lines detection. Using the staff lines detections, combine onset, and generate soft bootleg score (values are between 0 and 1).
+2) Install `musicma` library (https://github.com/hajicj/muscima). 
+- Clone the repository.
+- Run `python setup.py install`.
 
-Then, apply block DTW and perform the alignment. Compute two metrics (MSMD and our paper).
+3) Install `python-midi` library (https://github.com/louisabraham/python3-midi).
+- Clone the repository.
+- Run `python setup.py install`.
 
+4) Install `python-rtmidi` library (https://github.com/SpotlightKid/python-rtmidi.git).
+- Clone the repository.
+- Run `python setup.py install`.
 
+5) Install `pdfminer` library (https://github.com/pdfminer/pdfminer.six).
+- Clone the repository.
+- Run `python setup.py install`.
 
+6) Install `MSMD` library  (https://github.com/CPJKU/msmd)
+- Clone the repository.
+- Run `python setup.py install`.
 
 # License 
 
 All codes under this repository is licensed under BSD 3-Clause license.
-
